@@ -4,7 +4,7 @@
 # 推論歷程
 ![推論歷程](https://github.com/user-attachments/assets/30e7b75c-04c4-45c3-9f49-f974b56a31e2)
 
-# 準確率
+# 準確率（使用 RandomForest 模型）
 ![準確率](https://github.com/user-attachments/assets/695439f4-568e-408c-b9f0-1d4d205cfefb)
 
 # Telco Customer Churn – 可重現的訓練與推論管線（Python）
@@ -141,8 +141,6 @@ A4. 可以，但指標可能下降。建議至少保留 `tenure`、`MonthlyCharg
 - 混淆矩陣：TP=1780，TN=4737，FP=437，FN=89
 - 先前 hold‑out（XGBoost，F1 門檻）：Accuracy ≈ **0.8161**
 - 備註：此為在**整份資料**上評估之結果，與上表的 hold‑out 測試定義不同；若需嚴謹對比請以固定切分或交叉驗證為準。
-
-![RF Accuracy 0.9253](images/rf_accuracy_09253.jpg)
 
 ## 自訂與擴充
 
