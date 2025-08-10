@@ -1,6 +1,3 @@
-# 準確率（使用 RandomForest 模型）
-![準確率](https://github.com/user-attachments/assets/695439f4-568e-408c-b9f0-1d4d205cfefb)
-
 # Telco Customer Churn – 可重現的訓練與推論管線（Python）
 
 以 IBM/Kaggle 常見的 **Telco-Customer-Churn** 資料集為例，將 Kaggle 筆記本「*Telco Churn 🎯: 97% Accuracy with No Overfitting*」的重點做法，整理成三支可直接落地的腳本：
@@ -8,6 +5,9 @@
 - `preprocess.py`：資料清理與特徵工程（含缺值處理、One-Hot、標準化）
 - `train.py`：模型訓練、交叉驗證、門檻最佳化、產出 artifacts
 - `infer.py`：載入 artifacts，對新檔預測並輸出 `prediction.csv`
+
+## 準確率（使用 RandomForest 模型）
+![準確率](https://github.com/user-attachments/assets/695439f4-568e-408c-b9f0-1d4d205cfefb)
 
 > ✅ 特色：
 >
