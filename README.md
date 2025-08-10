@@ -1,9 +1,3 @@
-# 訓練歷程
-![訓練歷程](https://github.com/user-attachments/assets/a89039bb-72c1-463c-a2de-d7a61ef15c70)
-
-# 推論歷程
-![推論歷程](https://github.com/user-attachments/assets/30e7b75c-04c4-45c3-9f49-f974b56a31e2)
-
 # 準確率（使用 RandomForest 模型）
 ![準確率](https://github.com/user-attachments/assets/695439f4-568e-408c-b9f0-1d4d205cfefb)
 
