@@ -1,7 +1,6 @@
 # Telco Customer Churn – 可重現的訓練與推論管線（Python）
 
-以 IBM/Kaggle 常見的 **Telco-Customer-Churn** 資料集為例，將 Kaggle 筆記本「*Telco Churn 🎯: 97% Accuracy with No Overfitting*」的重點做法，整理成三支可直接落地的腳本：
-
+針對 IBM 的 **Telco-Customer-Churn** 資料集，透過 Decision Tree 和 XGBoost 模型，分拆成三個程式模組：
 - `preprocess.py`：資料清理與特徵工程（含缺值處理、One-Hot、標準化）
 - `train.py`：模型訓練、交叉驗證、門檻最佳化、產出 artifacts
 - `infer.py`：載入 artifacts，對新檔預測並輸出 `prediction.csv`
